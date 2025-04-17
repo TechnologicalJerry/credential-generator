@@ -1,40 +1,71 @@
-# Credential Generator Application
+# 🔐 Credential Generator Application
 
 ## Overview
 
-The Credential Generator Application is an innovative tool designed to generate secure and customizable credentials for a variety of use cases. Whether you require passwords, API keys, tokens, or other secure credentials, this application provides a reliable and efficient solution with enhanced security protocols and user-centric design.
-
-This application aims to simplify the process of credential generation while ensuring the highest standards of data security and user convenience.
+The Credential Generator Application is an innovative tool designed to generate secure and customizable credentials for various use cases. Whether you need passwords, API keys, tokens, or other secure credentials, this app ensures enhanced security protocols and a user-centric design.
 
 ---
 
-## Features
+## ✨ Features
 
-- **Secure Password Generator**: Create strong passwords with options for length, complexity, and character sets.
-- **API Key Generator**: Generate unique API keys for secure application integrations.
-- **Token Creation**: Easily generate tokens for authentication and authorization purposes.
-- **Customizable Parameters**: Set specific rules and guidelines for credential generation.
-- **User-Friendly Interface**: Intuitive interface suitable for both technical and non-technical users.
-- **Encryption & Storage**: Built-in encryption ensures credentials are secure during and after generation.
-- **Activity Logs**: Track the history of credential generation for auditing purposes.
-- **Cross-Platform Compatibility**: Accessible via desktop, tablet, and mobile devices.
-- **Role-Based Access Control (RBAC)**: Define user roles and permissions for managing credentials.
+- 🔑 **Secure Password Generator**: Create strong passwords with customizable options (length, complexity, character sets).
+- 🧩 **API Key Generator**: Generate unique API keys for secure app integrations.
+- 🛡️ **Token Creation**: Generate tokens for authentication/authorization.
+- ⚙️ **Customizable Parameters**: Set specific rules and policies for credential generation.
+- 🖥️ **User-Friendly Interface**: Built with Angular 17+ for modern, responsive UI.
+- 🔒 **Encryption & Secure Storage**: All credentials are encrypted and stored in MongoDB.
+- 📝 **Activity Logs**: View history of credential generation actions.
+- 📱 **Cross-Platform Compatibility**: Works seamlessly on desktop, tablet, and mobile.
+- 👤 **Role-Based Access Control (RBAC)**: Assign roles and permissions to manage access.
 
 ---
 
-## Installation
+## 🧰 Tools & Technologies
 
-### Prerequisites
+### Frontend
 
-Ensure you have the following installed:
-- **Node.js** (v14 or higher)
-- **npm** (v6 or higher)
-- A modern web browser for accessing the application
+- [Angular 17+](https://angular.io/)
+- TypeScript
+- RxJS
+- Angular Material
+- SCSS / CSS
 
-### Steps to Install
+### Backend
 
-1. **Clone the Repository**:
+- [Node.js](https://nodejs.org/) (v20+)
+- [Express.js](https://expressjs.com/)
+- [MongoDB](https://www.mongodb.com/)
+- [Mongoose](https://mongoosejs.com/)
+- JWT (JSON Web Tokens) for authentication
+- Bcrypt for password hashing
+- Dotenv for environment configuration
+
+### Dev Tools
+
+- Git & GitHub
+- Postman (for API testing)
+- VSCode
+- MongoDB Compass (for managing local database)
+
+---
+
+## 🏗️ Installation & Setup
+
+### 📦 Prerequisites
+
+Make sure the following are installed:
+
+- Node.js (v20+)
+- npm (v6+)
+- Angular CLI (v17+)
+- MongoDB (local or Atlas)
+- Modern web browser
+
+---
+
+### 🔧 Backend Setup
+
+1. **Clone the repository**  
    ```bash
    git clone https://github.com/TechnologicalJerry/credential-generator.git
-
-    
+   cd credential-generator/backend
