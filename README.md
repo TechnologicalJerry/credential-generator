@@ -1,1 +1,1 @@
-# passport-authenticate-typescript
+# credential-generator-application
